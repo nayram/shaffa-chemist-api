@@ -1,0 +1,30 @@
+{
+  "name": "shaffa-chemist-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "#⚡ Run test \n\t  mocha \"./{,!(node_modules)/**/}*.test.js\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ip": "1.1.5",
+    "joi": "17.4.0",
+    "pino": "6.11.0",
+    "ramda": "0.27.1",
+    "uuid": "8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "7.9.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.22.0",
+    "chai": "4.2.0",
+    "dirty-chai": "2.0.1",
+    "express": "4.17.1",
+    "mocha": "8.1.3",
+    "nock": "13.0.4",
+    "split2": "3.2.2",
+    "supertest": "5.0.0"
+  }
+}
