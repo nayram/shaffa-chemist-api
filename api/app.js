@@ -10,8 +10,9 @@ const app = express()
 
 const createApp = () => {
   app
-    .use(express.json())
     .use(logger.reqResLogger())
+    .use(express.urlencoded({ extended: true }))
+    .use(express.json())
     .use(jwt())
     .use('/v1', v1Router)
     .use(notFound)
